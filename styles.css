@@ -1,0 +1,36 @@
+/* body{
+  background-image:url("https://w7.pngwing.com/pngs/989/825/png-transparent-minnie-mouse-minnie-mouse-mickey-mouse-drawing-mickey-mouse-face-heroes-the-walt-disney-company-thumbnail.png");
+  position:relative;
+  height: px;
+  width
+}  */
+.eyes{
+  position:relative;
+  margin-top:150px;
+  bottom:720px;
+  left:200px;
+  margin-right:500px;
+  overflow: hidden;
+}  
+.eye1,.eye2{
+  width:100px;
+  height:130px;
+   border-radius: 50%;
+   border:3px solid black;
+   display: inline-block;
+  justify-content: space-between;
+  /* margin-right:100px; */
+  background-color: white;
+  overflow: hidden;
+
+}
+.ball{
+  width:30px;
+  height:30px;
+   border-radius: 50%;
+   border:3px solid black;
+   position: relative;
+   background-color: black;
+   margin-top: 20px;
+   transform:translate(-50%,-50%);
+}
